@@ -5,16 +5,17 @@ import java.io.*;
 
 public class Registration extends JFrame implements ActionListener
 {
-    
-    public Registration()
-    {
-      
-     JFrame f= new JFrame();
+JFrame f= new JFrame();
      JLabel l1,l2,l3,l4,l5,l6,l7,l8;
      JLabel title;
      JTextField tf1,tf2,tf3,tf4,tf5,tf6;
      JTextArea t1,t2;
      JButton b1;
+    
+    public Registration()
+    {
+      
+     
 
      f.setTitle("Registration Form");
      f.setBounds(300, 90, 900, 600);
